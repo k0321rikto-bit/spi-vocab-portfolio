@@ -1,0 +1,179 @@
+[
+  {
+    "id": 1,
+    "format": "combination",
+    "category": "同義関係",
+    "difficulty": "基礎",
+    "prompt": "基準と同じ関係にある組み合わせを選んでください。",
+    "base": "迅速:素早い",
+    "candidates": [
+      "静寂:静か",
+      "拡大:縮小",
+      "確実:確か"
+    ],
+    "choices": [
+      "アだけ",
+      "イだけ",
+      "ウだけ",
+      "アとイ",
+      "アとウ",
+      "イとウ"
+    ],
+    "answer": 4,
+    "explanation": "迅速と素早いは近い意味。アの静寂と静か、ウの確実と確かも近い意味です。イは反対の意味です。",
+    "analysis": [
+      {
+        "pair": "静寂:静か",
+        "matches": true,
+        "reason": "近い意味"
+      },
+      {
+        "pair": "拡大:縮小",
+        "matches": false,
+        "reason": "反対の意味"
+      },
+      {
+        "pair": "確実:確か",
+        "matches": true,
+        "reason": "近い意味"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "format": "blank",
+    "category": "対義関係",
+    "difficulty": "基礎",
+    "prompt": "「増加:減少」と同じ関係にある組を選んでください。",
+    "base": "増加:減少",
+    "candidates": [],
+    "choices": [
+      "上昇:下降",
+      "上昇:成長",
+      "増大:拡大",
+      "縮小:減退",
+      "持続:継続"
+    ],
+    "answer": 0,
+    "explanation": "増加と減少は反対の意味です。上昇と下降も対義関係に当たります。ほかは同義または近い方向を表す語の組です。",
+    "analysis": []
+  },
+  {
+    "id": 3,
+    "format": "combination",
+    "category": "役割・用途",
+    "difficulty": "標準",
+    "prompt": "基準と同じ関係にある組み合わせを選んでください。",
+    "base": "鍵:施錠",
+    "candidates": [
+      "はさみ:切断",
+      "時計:時刻",
+      "消しゴム:消去"
+    ],
+    "choices": [
+      "アだけ",
+      "イだけ",
+      "ウだけ",
+      "アとイ",
+      "アとウ",
+      "イとウ"
+    ],
+    "answer": 4,
+    "explanation": "鍵で施錠するように、はさみで切断し、消しゴムで消去します。時計は時刻を表示するので、厳密には動作の表現ではありません。",
+    "analysis": [
+      {
+        "pair": "はさみ:切断",
+        "matches": true,
+        "reason": "道具と用途"
+      },
+      {
+        "pair": "時計:時刻",
+        "matches": false,
+        "reason": "道具と表示内容"
+      },
+      {
+        "pair": "消しゴム:消去",
+        "matches": true,
+        "reason": "道具と用途"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "format": "blank",
+    "category": "包含関係",
+    "difficulty": "基礎",
+    "prompt": "『果物:りんご』と同じ関係になる組み合わせを選んでください。",
+    "base": "果物:りんご",
+    "candidates": [],
+    "choices": [
+      "家具:机",
+      "東:西",
+      "暑い:寒い",
+      "文字:読む",
+      "大:小"
+    ],
+    "answer": 0,
+    "explanation": "果物という分類にりんごが含まれるのと同様に、家具という分類に机が含まれます。",
+    "analysis": []
+  },
+  {
+    "id": 5,
+    "format": "combination",
+    "category": "対義関係",
+    "difficulty": "標準",
+    "prompt": "基準と同じ関係にある組み合わせを選んでください。",
+    "base": "透明:不透明",
+    "candidates": [
+      "許可:禁止",
+      "直進:曲進",
+      "賛成:反対"
+    ],
+    "choices": [
+      "アだけ",
+      "イだけ",
+      "ウだけ",
+      "アとイ",
+      "アとウ",
+      "イとウ"
+    ],
+    "answer": 4,
+    "explanation": "透明と不透明は対義関係です。アの許可と禁止、ウの賛成と反対も反対の意味です。",
+    "analysis": [
+      {
+        "pair": "許可:禁止",
+        "matches": true,
+        "reason": "対義関係"
+      },
+      {
+        "pair": "直進:曲進",
+        "matches": false,
+        "reason": "対になる一般的な語の組ではありません"
+      },
+      {
+        "pair": "賛成:反対",
+        "matches": true,
+        "reason": "対義関係"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "format": "blank",
+    "category": "役割・用途",
+    "difficulty": "基礎",
+    "prompt": "『温度計:温度』と同じ関係になる組み合わせを選んでください。",
+    "base": "温度計:温度",
+    "candidates": [],
+    "choices": [
+      "はさみ:紙",
+      "定規:長さ",
+      "手袋:手",
+      "氷:水",
+      "自転車:車輪"
+    ],
+    "answer": 1,
+    "explanation": "温度計が温度を測る道具であるように、定規は長さを測る道具です。",
+    "analysis": []
+  }
+]
